@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.myneofeedback">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Views.SplashActivity"
+            android:label="My Neo Feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Views.LoginActivity"
+            android:label="My Neo Feedback"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Views.MainNavigationActivity"
+            android:label="Dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Views.AboutDevActivity"
+            android:label="About Developer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.AddFeedbackActivity"
+            android:label="Add Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.SplashMenuActivity"
+            android:label="Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.CheckFeedbacksActivity"
+            android:label="User Feedbacks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.FeedbackItemActivity"
+            android:label="Feedback Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.CustomerListActivity"
+            android:label="Customer Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.AddCustomerActivity"
+            android:label="Add Customer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.CustomerItemActivity"
+            android:label="Customer Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Views.BirthdayListActivity"
+            android:label="Birthdays"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

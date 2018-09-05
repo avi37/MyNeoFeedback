@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.AboutDevActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="18sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="18sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/about_dev_frame_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="120dp"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2sp"
+                    android:text="Name:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginLeft="12sp"
+                    android:clickable="true"
+                    android:padding="2sp"
+                    android:text="Avi Vaishnav"
+                    android:textColor="@color/accent_deepOrange"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginLeft="18sp"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2sp"
+                    android:text="E-mail:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginLeft="12sp"
+                    android:clickable="true"
+                    android:padding="2sp"
+                    android:text="www.avirocks37@gmail.com"
+                    android:textColor="@color/accent_deepOrange"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18sp"
+                android:layout_marginLeft="18sp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="5sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2sp"
+                    android:text="Phone:"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginLeft="12sp"
+                    android:clickable="true"
+                    android:padding="2sp"
+                    android:text="+91  91730 76076"
+                    android:textColor="@color/accent_deepOrange"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

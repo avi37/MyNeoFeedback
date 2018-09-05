@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6636</color>
+    <color name="colorPrimaryDark">#d94616</color>
+    <color name="colorAccent">#2E2E3A</color>
+
+    <color name="main_bg_light_primary">#fff2ee</color>
+    <color name="font_grey">#717171</color>
+    <color name="darkOrange_white">#ffeee9</color>
+    <color name="accent_darkGreen">#006837</color>
+    <color name="bg_login">#f49e7f</color>
+    <color name="color_ratingText">#6832df</color>
+
+    <color name="deep_orange">#ff6636</color>
+    <color name="dark_deep_orange">#d94616</color>
+    <color name="accent_deepOrange">#2E2E3A</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+</resources>

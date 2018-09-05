@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="2sp"
+                android:color="@color/black" />
+            <corners
+                android:bottomLeftRadius="5dp"
+                android:bottomRightRadius="5dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp" />
+        </shape>
+    </item>
+
+    <item>
+        <rotate
+            android:fromDegrees="-46"
+            android:pivotX="50%"
+            android:pivotY="-55%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="0dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="@color/colorPrimary" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item>
+        <rotate
+            android:fromDegrees="-46"
+            android:pivotX="-20%"
+            android:pivotY="-40%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="0dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="@color/accent_deepOrange" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item>
+        <rotate
+            android:fromDegrees="-46"
+            android:pivotX="1%"
+            android:pivotY="-70%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="0dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="@color/black" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
